@@ -11,6 +11,7 @@
 
 html, body {
     height: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 html {
@@ -39,7 +40,7 @@ html {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #navbar {
@@ -50,9 +51,12 @@ a {
     display: flex;
     justify-content: center;
     background-color: lavenderblush;
+    background-color: rgb(138, 146, 148);
+    
 }
 
 #nav-links {
+    
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -67,6 +71,7 @@ a {
 }
 
 ul > li {
+    
     display: inline-block;
     padding: 20px;
     font-size: 20px;
@@ -74,46 +79,53 @@ ul > li {
 
 #welcome-section {
     height: 100vh;
-    margin-top: 60px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: lightcyan;
+    background-color: whitesmoke;
     text-align: center;
 }
 
 #hero {
+    
     max-width: 1000px;
     margin: auto;
 }
 
 #welcome-button {
-    width: 20rem;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    width: 22rem;
     height: 5rem;
     border-style: none;
     border-radius: 1px;
     cursor: pointer;
-    background-color: gainsboro;
-    margin-bottom: 60px;
+    background-color: rgb(123, 143, 148);
+    margin-bottom: 20px;
 }
 
 #welcome-header {
-    padding: 60px 180px;
+    
+    padding: 75px 180px;
+    padding-bottom: 60px;
     font-size: 5rem;
 }
 
 @media (max-width: 1200px) {
     #welcome-header {
-        padding: 60px 140px;
-        
+        padding: 75px 140px;
+        padding-bottom: 60px;
     }
 }
 
 @media (max-width: 961px) {
     #welcome-header {
-        padding: 60px 80px;
-        
+        padding: 75px 80px;
+        padding-bottom: 60px;
     }
 }
 
@@ -122,12 +134,15 @@ ul > li {
 }
 
 #projects {
-    background-color: rgb(103, 139, 120);
+    background-color: lightcyan;
+    background-color: rgb(160, 190, 199);
+    background-color: rgb(226, 219, 214);
     padding: 0 20px;
     text-align: center;
 }
 
 .projects-header {
+    
     font-size: 4.5rem;
     border-bottom: 0.2rem solid;
     padding-top: 60px;
@@ -156,7 +171,8 @@ ul > li {
 
 .project-tile {
     margin-top: 20px;
-    background-color: cornsilk;
+    background-color: whitesmoke;
+    background-color: rgb(138, 146, 148);
 }
 
 .project-image {
@@ -164,6 +180,7 @@ ul > li {
 }
 
 .project-title {
+    color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 16px;
@@ -199,11 +216,12 @@ ul > li {
 }*/
 
 #contact {
-    height: 100vh;
+    height: 93vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: lightcyan;
+    background-color: whitesmoke;
     text-align: center;
 }
 
