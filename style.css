@@ -52,11 +52,9 @@ a {
     justify-content: center;
     background-color: lavenderblush;
     background-color: rgb(138, 146, 148);
-    
 }
 
 #nav-links {
-    
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -70,8 +68,7 @@ a {
     }
 }
 
-ul > li {
-    
+ul > li { 
     display: inline-block;
     padding: 20px;
     font-size: 20px;
@@ -90,7 +87,6 @@ ul > li {
 }
 
 #hero {
-    
     max-width: 1000px;
     margin: auto;
 }
@@ -109,7 +105,6 @@ ul > li {
 }
 
 #welcome-header {
-    
     padding: 75px 180px;
     padding-bottom: 60px;
     font-size: 5rem;
@@ -142,8 +137,8 @@ ul > li {
 }
 
 .projects-header {
-    
     font-size: 4.5rem;
+    font-weight: bold;
     border-bottom: 0.2rem solid;
     padding-top: 60px;
     margin-left: auto;
@@ -158,7 +153,6 @@ ul > li {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    
     padding-top: 20px;
     padding-bottom: 60px;
 }
@@ -173,6 +167,7 @@ ul > li {
     margin-top: 20px;
     background-color: whitesmoke;
     background-color: rgb(138, 146, 148);
+    border-radius: 2px;
 }
 
 .project-image {
@@ -185,35 +180,6 @@ ul > li {
     padding-bottom: 15px;
     font-size: 16px;
 }
-
-/*#welcome-section {
-    height: 100vh;
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    background-color: lightcyan;
-    text-align: center;
-}
-
-#hero {
-    
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#welcome-button {
-    
-    width: 20rem;
-    height: 5rem;
-    border-style: none;
-    cursor: pointer;
-}
-
-#welcome-header {
-    padding: 60px 180px;
-    font-size: 5rem;
-}*/
 
 #contact {
     height: 93vh;
